@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <CalendarView
+        android:id="@+id/simpleCalendarView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:firstDayOfWeek="2"
+        android:maxDate="01/01/2021"
+        android:minDate="7/12/2019"
+        />
+</FrameLayout>

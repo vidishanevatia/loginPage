@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_300sdp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+   android:layout_gravity="bottom"
+    >
+
+    <TextView
+        android:id="@+id/tv_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Password: password"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

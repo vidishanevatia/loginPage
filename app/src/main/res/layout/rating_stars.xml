@@ -1,0 +1,98 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/gradient">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:text="Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="@dimen/_20sdp"/>
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock"
+            android:layout_column="2"
+            android:layout_marginLeft="@dimen/_20sdp"/>
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/_30sdp">
+
+        <TextView
+            android:id="@+id/tv_firstname"
+            android:text="First Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="@dimen/_20sdp"/>
+
+        <EditText
+            android:id="@+id/et_firstname"
+            android:width="200px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/_30sdp">
+
+        <TextView
+            android:id="@+id/tv_lastname"
+            android:text="Last Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="@dimen/_20sdp"/>
+
+        <EditText
+            android:id="@+id/et_lastname"
+            android:width="100px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/_30sdp">
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/_30sdp"/>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/button"
+            android:layout_column="2" />
+    </TableRow>
+
+</TableLayout>

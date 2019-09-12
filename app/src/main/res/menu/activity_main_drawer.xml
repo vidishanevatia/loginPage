@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_seekbar"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Seek Bar and WebView" />
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Progress Bar " />
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Rate our app" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sign Out" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rating2"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Rate our app with stars" />
+            <item
+                android:id="@+id/nav_at"
+                android:icon="@drawable/ic_menu_send"
+                android:title="AsyncTask" />
+
+            <item
+                android:id="@+id/nav_toggle"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Toggle Button" />
+
+            <item
+                android:id="@+id/nav_radiobutton"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Radio Button" />
+
+            <item
+                android:id="@+id/nav_checkbox"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Check Box" />
+
+            <item
+                android:id="@+id/nav_spinner"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Spinner and custom dialog" />
+
+            <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Camera" />
+
+            <item
+                android:id="@+id/nav_listview"
+                android:icon="@drawable/ic_menu_send"
+                android:title="List View" />
+            <item
+                android:id="@+id/nav_elv"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Expandable List View" />
+            <item
+                android:id="@+id/nav_gridview"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Grid View" />
+            <item
+                android:id="@+id/nav_scrollview"
+                android:icon="@drawable/ic_menu_send"
+                android:title= "Scroll View" />
+            <item
+                android:id="@+id/nav_numberpicker"
+                android:icon="@drawable/ic_menu_send"
+                android:title= "Number Picker" />
+            <item
+                android:id="@+id/nav_dtpicker"
+                android:icon="@drawable/ic_menu_send"
+                android:title= "Date Time Picker" />
+            <item
+                android:id="@+id/nav_recyclerview"
+                android:icon="@drawable/ic_menu_send"
+                android:title= "Recycler View" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_height="105dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        card_view:cardCornerRadius="15dp"
+
+        card_view:cardElevation="16dp"
+        card_view:cardMaxElevation="20dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="12dp"
+
+        >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        >
+
+    <TextView
+        android:layout_width="200dp"
+        android:id="@+id/examName"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"
+        android:text="First Exam"
+        android:textColor="@color/white"
+        android:layout_marginEnd="20dp"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/examPic"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/examName"
+        android:tint="#FFFF"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/icon"/>
+
+    <TextView
+        android:id="@+id/examDate"
+        android:layout_toEndOf="@+id/examPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/examName"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="45dp"
+        android:gravity="center"
+        android:text="May 23, 2015"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/examPic2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/examDate"
+        android:tint="#FFFF"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/heart"/>
+
+    <TextView
+        android:id="@+id/examMessage"
+        android:layout_toEndOf="@+id/examPic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/examDate"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="45dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Best Of Luck"
+        android:textSize="16sp"/>
+
+
+
+
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_300sdp"
+    android:layout_gravity="bottom"
+    android:background="@color/colorAccent"
+    >
+
+    <Button
+        android:id="@+id/bt_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Submit"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
